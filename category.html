@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="loading">
+      <span class="loader"></span>
+  </div>
+    <div class="page d-flex">
+      <!-- start navbar -->
+      <nav class="sidebar">
+        <div class="side">
+          <ul class="side-content">
+            <li class="py-3">
+              <a href="search.html" class="text-white"> Search </a>
+            </li>
+            <li class="py-3">
+              <a href="category.html" class="text-white"> Categories </a>
+            </li>
+            <li class="py-3">
+              <a href="area.html" class="text-white"> Area </a>
+            </li>
+            <li class="py-3">
+              <a href="ingridient.html" class="text-white"> Ingredients </a>
+            </li>
+            <li class="py-3">
+              <a href="contact.html" class="text-white"> Contact Us </a>
+            </li>
+          </ul>
+          <div class="info">
+            <ul class="links d-flex">
+              <li class="pe-2">
+                <a href="#" class="text-white"
+                  ><i class="fa-solid fa-globe"></i
+                ></a>
+              </li>
+              <li class="pe-2">
+                <a href="#" class="text-white"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li class="pe-2">
+                <a href="#" class="text-white"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+            </ul>
+            <p class="text-white">Copyright Â© 2019 All Rights Reserved.</p>
+          </div>
+        </div>
+        <ul class="menu">
+          <li>
+            <img src="logo.png" alt="" class="logo" />
+          </li>
+          <li class="icon">
+            <i class="fa-solid fa-bars" id="open"></i>
+            <i class="fa-solid fa-xmark" id="close"></i>
+          </li>
+          <li class="socail">
+            <span><i class="fa-solid fa-globe"></i></span>
+            <span><i class="fa-solid fa-share-nodes"></i></span>
+          </li>
+        </ul>
+      </nav>
+      <!-- end navbar -->
+      <div class="container w-100 text-white">
+        <!--start  categorypage -->
+        <div class="main-content">
+          <div class="categoryContent">
+            <div class="container-fluid">
+              <div class="row g-4 mt-4" id="rowData"></div>
+            </div>
+          </div>
+        </div>
+        <!--end  category page -->
+      </div>
+    </div>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/category.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
